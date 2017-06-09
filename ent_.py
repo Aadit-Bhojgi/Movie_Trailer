@@ -2,7 +2,7 @@
 import media
 import fresh_tomatoes
 
-#
+# Local variable calling the init function of class Media in media.py file
 toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life",
                         "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-m8zzyx_5670999f.jpeg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
@@ -29,5 +29,6 @@ hunger_games = media.Movie("Hunger Games", "A televised competition in which two
                            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNz"
                            "kyNw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg", "https://www.youtube.com/watch?v=4S9a5V9ODuY")
 
+# Creating a List of local variables and passing it to a function in fresh_tomatoes.py to display given messages.
 movies = [avatar, toy_story, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
 fresh_tomatoes.open_movies_page(movies)
